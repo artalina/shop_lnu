@@ -15,5 +15,15 @@ if __name__ == "__main__":
     app.run(host='0.0.0.0', port=port)
 
 
+@app.route('/home')
+def home():
+    """Renders the home page."""
+    return render_template(
+        'index.html',
+        title='Home Page',
+        year=datetime.now().year,
+    )    
+
+
 
 
