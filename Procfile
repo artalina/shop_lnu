@@ -1,1 +1,1 @@
-web: gunicorn shop_lnu:app
+web: gunicorn wsgi:app
