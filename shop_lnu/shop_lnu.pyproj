@@ -41,7 +41,6 @@
     <Folder Include="shop_lnu\templates\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Procfile.txt" />
     <Content Include="requirements.txt" />
     <Content Include="runtime.txt" />
     <Content Include="shop_lnu\static\content\bootstrap.css" />
