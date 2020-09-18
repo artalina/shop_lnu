@@ -5,8 +5,9 @@ Routes and views for the flask application.
 from datetime import datetime
 from flask import render_template
 from shop_lnu import app
-from flask import Flask
-app = Flask(__name__)
+
+#from flask import Flask
+#app = Flask(__name__)
 
 @app.route('/')
 @app.route('/home')
